@@ -1,6 +1,6 @@
 
 # Author
-*Shimizu Takumi
+* Shimizu Takumi
 
 # CA
 * CAの挙動確認用のコードと結果画像
