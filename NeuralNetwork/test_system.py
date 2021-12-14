@@ -142,9 +142,9 @@ s=np.zeros((5,5))#状態
 
 
 
-file="/Users/shimizutakumi/Documents/PythonWorks-4/mesh_data/area1.csv"
+file="area1.csv"
 x_train=mf.dataload(file,"2018-12-31 00:00:00")
-file="/Users/shimizutakumi/Documents/PythonWorks-4/mesh_data/area2.csv"
+file="area2.csv"
 test_data=mf.dataload(file,"2020-12-31 00:00:00")
 nei_index=[]
 net=[]
