@@ -114,11 +114,11 @@ transposed_matrix(in_data,taras_in_data)
 """
 #------訓練データと教師データの取得--------
 
-input_file1="/Users/shimizutakumi/Documents/PythonWorks-4/mesh_data/area1.csv"
+input_file1="/area1.csv"
 #transposed_file="/Users/shimizutakumi/Documents/PythonWorks-4/mesh_data/test_output_transposed.csv"
 f1=open(input_file1,"r")
 file1 =csv.reader(f1)#入力データ
-input_file2 = "/Users/shimizutakumi/Documents/PythonWorks-4/mesh_data/area1.csv"
+input_file2 = "area1.csv"
 f2=open(input_file2,"r")
 file2=csv.reader(f2)#教師データ
 #transposed_matrix(input_file2,transposed_file)
